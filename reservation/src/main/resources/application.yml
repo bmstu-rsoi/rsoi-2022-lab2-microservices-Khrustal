@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rsoi_lab2
+    password: postgres
+    username: postgres
+    driver-class-name: org.postgresql.Driver
+server:
+  port: 8070
+services:
+  gateway: 8080
