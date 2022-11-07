@@ -4,7 +4,7 @@ spring:
     hibernate:
       ddl-auto: none
   datasource:
-    url: jdbc:postgresql://0.0.0.0:5432/
+    url: jdbc:postgresql://postgres:5432/
     password: postgres
     username: postgres
     driver-class-name: org.postgresql.Driver
